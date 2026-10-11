@@ -1,0 +1,10 @@
+{
+  "name": "simeon-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simeon's interactive portfolio with a small Node.js contact API.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check Simeon.js"
+  }
+}

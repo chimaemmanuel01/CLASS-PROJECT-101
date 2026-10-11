@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simeon is a curious creative developer building playful experiences for the web.">
+    <meta name="theme-color" content="#101112">
+    <title>Simeon — Creative developer</title>
+    <link rel="stylesheet" href="/Simeon.css">
+    <script src="/Simeon.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="nav shell" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Simeon home">s<span>.</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                <span class="menu-icon" aria-hidden="true"></span>
+                <span class="menu-label">Menu</span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero shell" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span class="status-light" aria-hidden="true"></span> Curious by nature · Building for the web</p>
+                <h1 id="hero-title">Ideas with a little <span class="marker">more life.</span></h1>
+                <p class="hero-description">Hey, I’m Simeon — a creative learner exploring code, design, and the fun that happens when they meet.</p>
+                <div class="hero-actions">
+                    <a class="button button-lime" href="#work">See what I’m making <span aria-hidden="true">↓</span></a>
+                    <a class="quiet-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="hero-footnote"><span class="sparkle" aria-hidden="true">✳</span> Currently learning, always experimenting.</div>
+            </div>
+
+            <div class="hero-art reveal" aria-label="Abstract green and lavender creative illustration">
+                <div class="art-orbit orbit-one"></div>
+                <div class="art-orbit orbit-two"></div>
+                <div class="art-sun"></div>
+                <div class="art-card card-back"><span>good ideas</span><span>need room ✳</span></div>
+                <div class="art-card card-front">
+                    <div class="code-top"><span></span><span></span><span></span><small>playground.html</small></div>
+                    <div class="code-lines" aria-hidden="true">
+                        <i class="code-line line-short"></i>
+                        <i class="code-line line-long"></i>
+                        <i class="code-line line-medium"></i>
+                        <i class="code-line line-long accent-line"></i>
+                        <i class="code-line line-short"></i>
+                    </div>
+                    <p>make it <em>matter</em><b>_</b></p>
+                </div>
+                <span class="art-sticker sticker-top">DESIGN<br>+ CODE</span>
+                <span class="art-sticker sticker-bottom" aria-hidden="true">✳</span>
+            </div>
+        </section>
+
+        <div class="ticker" aria-label="Design, build, learn, repeat">
+            <div class="ticker-track" aria-hidden="true">
+                <span>DESIGN</span><i>✳</i><span>BUILD</span><i>✳</i><span>LEARN</span><i>✳</i><span>REPEAT</span><i>✳</i>
+                <span>DESIGN</span><i>✳</i><span>BUILD</span><i>✳</i><span>LEARN</span><i>✳</i><span>REPEAT</span><i>✳</i>
+            </div>
+        </div>
+
+        <section class="work-section shell section-space" id="work" aria-labelledby="work-title">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">A few things in progress</p>
+                    <h2 id="work-title">Made to <span class="serif-accent">make you look.</span></h2>
+                </div>
+                <p class="section-note">Little experiments, useful ideas, and a lot of learning along the way.</p>
+            </div>
+
+            <div class="filters reveal" role="group" aria-label="Filter projects">
+                <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>03</span></button>
+                <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web <span>02</span></button>
+                <button class="filter-button" type="button" data-filter="ideas" aria-pressed="false">Ideas <span>01</span></button>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card project-lime reveal" data-category="web">
+                    <div class="project-visual garden-visual" aria-hidden="true">
+                        <div class="browser-window">
+                            <div class="browser-bar"><i></i><i></i><i></i><span>little-garden</span></div>
+                            <div class="garden-content"><span>GROW AT YOUR<br>OWN PACE.</span><b>✳</b><i></i></div>
+                        </div>
+                        <span class="visual-tag">01 / WEB</span>
+                    </div>
+                    <div class="project-details">
+                        <div><h3>Little Green Things</h3><p>A bright home for little ideas.</p></div>
+                        <span class="project-arrow" aria-hidden="true">↗</span>
+                    </div>
+                </article>
+
+                <article class="project-card project-lilac reveal" data-category="web">
+                    <div class="project-visual notes-visual" aria-hidden="true">
+                        <div class="note-sheet"><span>MONDAY, MAY 12</span><b>Dear future me,</b><i></i><i></i><i></i><small>keep going ✳</small></div>
+                        <span class="visual-tag">02 / WEB</span>
+                    </div>
+                    <div class="project-details">
+                        <div><h3>Notes to Future Me</h3><p>A tiny journal concept for big thoughts.</p></div>
+                        <span class="project-arrow" aria-hidden="true">↗</span>
+                    </div>
+                </article>
+
+                <article class="project-card project-orange reveal" data-category="ideas">
+                    <div class="project-visual idea-visual" aria-hidden="true">
+                        <span class="idea-scribble">what if</span>
+                        <span class="idea-orbit"></span>
+                        <span class="idea-star">✳</span>
+                        <span class="visual-tag">03 / IDEAS</span>
+                    </div>
+                    <div class="project-details">
+                        <div><h3>One Good Question</h3><p>A daily prompt to kick-start curiosity.</p></div>
+                        <span class="project-arrow" aria-hidden="true">↗</span>
+                    </div>
+                </article>
+            </div>
+            <p class="filter-empty" hidden>No projects in this category just yet. Try another filter.</p>
+        </section>
+
+        <section class="about-section" id="about" aria-labelledby="about-title">
+            <div class="about-layout shell">
+                <div class="about-title reveal">
+                    <p class="eyebrow">The human behind the pixels</p>
+                    <h2 id="about-title">Still curious.<br><span class="serif-accent">Always creating.</span></h2>
+                    <span class="about-doodle" aria-hidden="true">↘</span>
+                </div>
+                <div class="about-copy reveal">
+                    <p class="about-lead">I’m learning my way around the web, one “what if?” at a time.</p>
+                    <p>I like clean design, thoughtful details, and making things that feel good to use. This portfolio is my little corner to share the experiments, ideas, and new skills I pick up along the way.</p>
+                    <div class="skill-list" aria-label="Things I am learning">
+                        <span>HTML &amp; CSS</span><span>JavaScript</span><span>Node.js</span><span>Creative thinking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section shell" id="contact" aria-labelledby="contact-title">
+            <div class="contact-heading reveal">
+                <p class="eyebrow">Your turn</p>
+                <h2 id="contact-title">Got a good <span class="serif-accent">idea?</span></h2>
+                <p>Drop me a note. Questions, kind words, and interesting ideas are all welcome.</p>
+            </div>
+            <form class="contact-form reveal" id="contact-form">
+                <div class="form-row">
+                    <label for="name">Your name</label>
+                    <input id="name" name="name" autocomplete="name" maxlength="80" placeholder="What should I call you?" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="you@example.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" rows="4" maxlength="2000" placeholder="Tell me what you're thinking..." required></textarea>
+                </div>
+                <div class="website-field" aria-hidden="true">
+                    <label for="website">Leave this field empty</label>
+                    <input id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <div class="form-footer">
+                    <button class="button button-lime submit-button" type="submit">Send the good stuff <span aria-hidden="true">↗</span></button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite">Your note is sent to the portfolio server.</p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer shell">
+        <a class="brand footer-brand" href="#home" aria-label="Back to top">s<span>.</span></a>
+        <p>Made with curiosity by Simeon <span aria-hidden="true">✳</span></p>
+        <a class="back-top" href="#home">Back to top ↑</a>
+        <span class="copyright">© <span id="year">2026</span></span>
+    </footer>
+</body>
+</html>
