@@ -1,0 +1,18 @@
+import random
+
+def generate_collaboration_id():
+    """
+    A simple script to demonstrate collaborative code.
+    Simulates generating a unique session ID for team projects.
+    """
+    elements = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    session_code = "".join(random.choice(elements) for _ in range(8))
+    
+    print(f"--- GitHub Collaboration Demo ---")
+    print(f"Your simulated project session code is: {session_code}")
+    print(f"Status: Ready for team contributions!")
+    
+    return session_code
+
+if __name__ == "__main__":
+    generate_collaboration_id()
