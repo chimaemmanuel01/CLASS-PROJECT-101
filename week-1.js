@@ -8,3 +8,15 @@ while (i <= 10) {
   }
   i++;
 }
+
+function helloWorld() {
+  console.log("Hello World");
+};
+
+const nums = [1, 2, 3, 4, 5];
+
+const object = {
+  name: "Daniel",
+  age: 30,
+  city: "Aba"
+};
